@@ -1,0 +1,25 @@
+{
+  "name": "api_testing_cypress",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/siddharthsee/API_TESTING_CYPRESS.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/siddharthsee/API_TESTING_CYPRESS/issues"
+  },
+  "homepage": "https://github.com/siddharthsee/API_TESTING_CYPRESS#readme",
+  "dependencies": {
+    "cypress": "^13.13.0"
+  },
+  "devDependencies": {
+    "cypress-mochawesome-reporter": "^3.8.2"
+  }
+}
