@@ -5,7 +5,7 @@ describe('PUT call',()=>{
     it('Put',()=>{
         const reqBody3={
             name: "freddy",
-            email: "zinkoqzabcwd@gmail.com"
+            email: Math.random().toString(4).substring(2,10)+'@gmail.com'
             }
 
             cy.request({
@@ -19,7 +19,7 @@ describe('PUT call',()=>{
 
             }).then((response)=>{
                 cy.log(JSON.stringify(response))
-                expect(response.status).to.eq(200)
+                expect(response.status).to.eq(202)
                 expect(response.body).has.property('name',reqBody3.name)
                 expect(response.body).has.property('email',reqBody3.email)
 

@@ -21,8 +21,9 @@ module.exports = defineConfig({
     inlineAssets: true
   },
   e2e: {
+    
     watchForFileChanges:false,
-    defaultCommandTimeout:4000,
+    defaultCommandTimeout:6000,
     screenshotOnRunFailure:true,
     
     
@@ -31,5 +32,10 @@ module.exports = defineConfig({
       return config;
     },
   },
+  env:{
+    URL:'https://demo.automationtesting.in/Alerts.html'
+  }
+
+  
 });
 

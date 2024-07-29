@@ -1,5 +1,15 @@
 {
   "name": "freddy",
   "email": "hello@cypress.io",
-  "body": "Fixtures are a great way to mock data for responses to routes"
+  "body": "Fixtures are a great way to mock data for responses to routes",
+  "url":"https://demo.nopcommerce.com/",
+  "int":"Apple Macbook Pro 13-inch",
+  "url1":"https://signup.heroku.com/login",
+  "name1":"Siddharth",
+  "lastName":"Kumar",
+  "em":"random",
+  "company":"Appventurez",
+  "country":"India"
+  
+  
 }

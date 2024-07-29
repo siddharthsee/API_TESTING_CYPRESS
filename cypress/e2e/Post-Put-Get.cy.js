@@ -12,7 +12,7 @@ describe('Post',()=>{
             },
             body: {
                 
-                    name:"SID",
+                    name:"freddy",
                     email:Math.random().toString(4).substring(2,10)+'@gmail.com',
                     gender:"male",
                     status:"active"
